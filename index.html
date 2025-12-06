@@ -3,13 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Profil Data Diri</title>
+    <title>Profil Data Diri - Coylade Tamba</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="style.css"
 </head>
 <body>
+    <!-- THEME TOGGLE BUTTON -->
+    <button class="theme-toggle" id="themeToggle">
+        <i class="fas fa-moon"></i> Dark mode
+    </button>
+
     <div class="container mt-4">
         <div class="card header-bg text-center p-4 mb-4">
             <h1>Profil Data Diri</h1>
@@ -17,7 +22,9 @@
 
         <div class="row">
             <div class="col-md-4 mb-4">
-                <img src="fotoku.jpeg" class="img-fluid rounded shadow" alt="Coylade Tamba" />
+                <img src="fotoku.jpg" 
+                     class="img-fluid rounded shadow" 
+                     alt="Coylade Tamba" />
             </div>
 
             <div class="col-md-8">
@@ -27,7 +34,7 @@
                             <h3 class="mb-3">Tentang Saya</h3>
                             <p><strong>Nama :</strong> Coylade Tamba</p>
                             <p><strong>Tanggal Lahir :</strong> 21 Desember 2004</p>
-                            <p><strong>Alamat :</strong> Perum Griya Harapan, Jl Muria no 24, Weleri</p>
+                            <p><strong>Alamat :</strong> Perum Griya Harapan, Jl Muria no 24, Penyangkringan, Weleri</p>
                         </section>
                     </div>
                 </div>
@@ -36,7 +43,7 @@
                     <div class="card-body">
                         <section id="pendidikan">
                             <h3 class="mb-3">Riwayat Pendidikan</h3>
-                            <table class="table table-dark table-striped">
+                            <table class="table table-striped">
                                 <thead>
                                     <tr>
                                         <th>Jenjang</th>
@@ -57,13 +64,13 @@
                                     </tr>
                                     <tr>
                                         <td>SMP</td>
-                                        <td>SMP KANISIUS BUDI MURNI WELERI</td>
+                                        <td>SMP Kanisius Budi Murni Weleri</td>
                                         <td>2017 - 2019</td>
                                     </tr>
                                     <tr>
                                         <td>SD</td>
-                                        <td>SD KANISIUS BRANA WELERI</td>
-                                        <td>2011 - 2016</td>
+                                        <td>SD Kanisius Brana Weleri</td>
+                                        <td>2010 - 2017</td>
                                     </tr>
                                 </tbody>
                             </table>
@@ -83,21 +90,75 @@
                         </section>
                     </div>
                 </div>
+
+                <!-- ACCORDION/FAQ SECTION -->
+                <div class="card">
+                    <div class="card-body">
+                        <section id="faq">
+                            <h3 class="mb-3">Frequently Asked Questions</h3>
+                            
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    <span>Kenapa memercayai Udinus untuk menempuh sarjana S1 Sistem Informasi?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Saya tertarik dan mempercayakan kampus Udinus karena Udinus memiliki akreditasi unggul untuk jurusan FIK, dan juga untuk tempat yang stretegis yaitu ditengah kota Semarang sehingga memudahkan akses untuk memenuhi tujuan destinasi yang ada.
+                                </div>
+                            </div>
+
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    <span>Kenapa memilih jurusan Sistem Informasi?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Saya tertarik dengan Sistem Informasi karena dimasa depan memiliki peluang kerja yang besar, juga dapat bekerja sama dengan yang sedang trending dengan saat itu yaitu AI..
+                                </div>
+                            </div>
+
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    <span>Mengapa lebih memilih kuliah daripada langsung bekerja?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Saya ingin kuliah dulu karena mencari ilmu terlebih dahulu, karena jika langsung bekerja saya tidak punya pengalaman dan karena saya orangnya tidak terlalu pd nanti takutnya kalah saing karena tidak memiliki bekal akademik.
+                                </div>
+                            </div>
+
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    <span>Apakah pernah terpikirkan akan pindah jurusan atau pernah merasa kesulitan dalam jurusan saat ini?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Saat ini saya sudah semester 3 dan belum terpikirkan untuk pindah jurusan bahkan menyerah, karena sesuatu yang kita pilih dan niati maka tidak akan berhenti ditengah jalan walau banyak hambatan yang datang.
+                                </div>
+                            </div>
+
+                            <div class="faq-item">
+                                <div class="faq-question">
+                                    <span>Bagaimana cara menghubungi Anda?</span>
+                                    <i class="fas fa-chevron-down"></i>
+                                </div>
+                                <div class="faq-answer">
+                                    Anda dapat menghubungi saya melalui email di coytamba21@gmail.com atau melalui Instagram @coylade21 Saya akan merespons sesegera mungkin!
+                                </div>
+                            </div>
+                        </section>
+                    </div>
+                </div>
             </div>
         </div>
 
         <footer class="mt-4 text-center">
             <p>&copy; 2025 | Dibuat Oleh Coylade Tamba</p>
-            <p> Email : <a href="mailto:coytamba21@gmail.com">coytamba21@gmail.com</a></p>
-            <p>Instagram : <a href="https://www.instagram.com/coylade21?igsh=dnhmMTNtZ3Q1endo&utm_source=qr">coytamba21</a></p>
+            <p>Email : <a href="mailto:coytamba21@gmail.com">coytamba21@gmail.com</a></p>
+            <p>Instagram : <a href="https://www.instagram.com/coylade21?igsh=dnhmMTNtZ3Q1endo&utm_source=qr">coylade21</a></p>
         </footer>
     </div>
 
-
+    <script src="script.js"></script>
 </body>
 </html>
-
-
-
-
-
